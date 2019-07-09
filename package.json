@@ -1,0 +1,21 @@
+{
+  "name": "fn-utils",
+  "version": "1.0.0",
+  "main": "bundle.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup src/index.js --file bundle.js --format umd --name \"Fn\""
+  },
+  "devDependencies": {
+    "@babel/cli": "7.5.0",
+    "@babel/core": "7.5.0",
+    "@babel/plugin-proposal-class-properties": "7.5.0",
+    "@babel/plugin-proposal-object-rest-spread": "7.5.2",
+    "@babel/preset-env": "7.5.2"
+  },
+  "dependencies": {
+    "jest": "24.8.0",
+    "rollup": "1.16.7"
+  }
+}
