@@ -1,5 +1,5 @@
 {
-  "name": "@lockround/fp",
+  "name": "fp-fns",
   "version": "1.0.0",
   "main": "bundle.js",
   "license": "MIT",
